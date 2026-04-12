@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 740" width="940" height="740" style="background:#0f172a">
+<defs>
+  <marker id="arrow" viewBox="0 -5 10 10" refX="36" refY="0" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0,-4L8,0L0,4" fill="#475569"/>
+  </marker>
+</defs>
+  <path d="M470,80 Q500,350 470,620" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="485" y="344" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsTo</text>
+  <path d="M470,80 L470,620" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="470" y="344" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsTo</text>
+  <path d="M470,80 Q594.4134295109,134.50961894323 703.8268590218,215" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="590.7" y="135" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">HasMany</text>
+  <path d="M470,80 Q360.5865704891,160.49038105677 236.1731409782,215" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="356.8" y="148" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsToMany</text>
+  <path d="M703.8268590218,215 Q599.90381056767,425 470,620" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="593.4" y="415.3" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsTo</text>
+  <path d="M703.8268590218,215 Q594.4134295109,134.50961894323 470,80" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="590.7" y="135" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsTo</text>
+  <path d="M703.8268590218,485 Q470,500 236.1731409782,485" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="470" y="486.5" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsTo</text>
+  <path d="M470,620 Q500,350 470,80" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="485" y="344" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">HasMany</text>
+  <path d="M470,620 Q599.90381056767,425 703.8268590218,215" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="593.4" y="415.3" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">HasMany</text>
+  <path d="M470,620 Q345.5865704891,565.49038105677 236.1731409782,485" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="349.3" y="553" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">HasMany</text>
+  <path d="M236.1731409782,485 Q345.5865704891,565.49038105677 470,620" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="349.3" y="553" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsTo</text>
+  <path d="M236.1731409782,485 Q470,500 703.8268590218,485" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="470" y="486.5" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">HasMany</text>
+  <path d="M236.1731409782,215 Q360.5865704891,160.49038105677 470,80" fill="none" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="356.8" y="148" text-anchor="middle" fill="#64748b" font-size="9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">BelongsToMany</text>
+  <circle cx="470" cy="80" r="28" fill="#dc3545" fill-opacity="0.15" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="470" y="84" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Post</text>
+  <circle cx="703.8" cy="215" r="28" fill="#dc3545" fill-opacity="0.15" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="703.8" y="219" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Comment</text>
+  <circle cx="703.8" cy="485" r="28" fill="#dc3545" fill-opacity="0.15" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="703.8" y="489" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Product</text>
+  <circle cx="470" cy="620" r="28" fill="#dc3545" fill-opacity="0.15" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="470" y="624" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">User</text>
+  <circle cx="236.2" cy="485" r="28" fill="#dc3545" fill-opacity="0.15" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="236.2" y="489" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Order</text>
+  <circle cx="236.2" cy="215" r="28" fill="#dc3545" fill-opacity="0.15" stroke="#dc3545" stroke-width="2.5"/>
+  <text x="236.2" y="219" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Tag</text>
+  <rect x="16" y="16" width="200" height="180" rx="8" fill="#1e293b" fill-opacity="0.95" stroke="#334155"/>
+  <text x="30" y="40" fill="#f8fafc" font-size="13" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Model Relationship Graph</text>
+  <text x="30" y="60" fill="#94a3b8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Models</text>
+  <text x="202" y="60" text-anchor="end" fill="#e2e8f0" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">6</text>
+  <text x="30" y="78" fill="#94a3b8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Relationships</text>
+  <text x="202" y="78" text-anchor="end" fill="#e2e8f0" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">14</text>
+  <text x="30" y="96" fill="#94a3b8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Errors</text>
+  <text x="202" y="96" text-anchor="end" fill="#f87171" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">10</text>
+  <text x="30" y="114" fill="#94a3b8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Warnings</text>
+  <text x="202" y="114" text-anchor="end" fill="#fbbf24" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">2</text>
+  <line x1="30" y1="130" x2="202" y2="130" stroke="#334155"/>
+  <text x="30" y="138" fill="#94a3b8" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Health Score</text>
+  <text x="202" y="138" text-anchor="end" fill="#e2e8f0" font-size="11" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">21/100</text>
+  <circle cx="36" cy="157" r="4" fill="#28a745"/>
+  <text x="46" y="160" fill="#94a3b8" font-size="10" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">No issues</text>
+  <circle cx="36" cy="173" r="4" fill="#ffc107"/>
+  <text x="46" y="176" fill="#94a3b8" font-size="10" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Warnings</text>
+  <circle cx="36" cy="189" r="4" fill="#dc3545"/>
+  <text x="46" y="192" fill="#94a3b8" font-size="10" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif">Errors</text>
+</svg>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4c778a0287617de2edb695b5f8f4b13",
+    "content-hash": "6aeb40fe321040f5049a8cedef09c0d2",
     "packages": [
         {
             "name": "brick/math",
@@ -137,16 +137,16 @@
         },
         {
             "name": "devlin/laravel-model-analyzer",
-            "version": "v2.0.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dev-lin2/laravel-model-optimizer.git",
-                "reference": "d7be07184e4eda42064a65fe29d0f0faae7fe975"
+                "reference": "04d64786bd58f2b6ba6a7bd4b111e05840cfd318"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dev-lin2/laravel-model-optimizer/zipball/d7be07184e4eda42064a65fe29d0f0faae7fe975",
-                "reference": "d7be07184e4eda42064a65fe29d0f0faae7fe975",
+                "url": "https://api.github.com/repos/dev-lin2/laravel-model-optimizer/zipball/04d64786bd58f2b6ba6a7bd4b111e05840cfd318",
+                "reference": "04d64786bd58f2b6ba6a7bd4b111e05840cfd318",
                 "shasum": ""
             },
             "require": {
@@ -196,9 +196,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dev-lin2/laravel-model-optimizer/issues",
-                "source": "https://github.com/dev-lin2/laravel-model-optimizer/tree/v2.0.0"
+                "source": "https://github.com/dev-lin2/laravel-model-optimizer/tree/v2.2.1"
             },
-            "time": "2026-04-12T09:09:39+00:00"
+            "time": "2026-04-12T14:20:17+00:00"
         },
         {
             "name": "dflydev/dot-access-data",

@@ -35,6 +35,7 @@
                     <a href="/commands" class="hover:text-indigo-400 transition {{ request()->is('commands') ? 'text-indigo-400' : 'text-gray-300' }}">Commands</a>
                     <a href="/config" class="hover:text-indigo-400 transition {{ request()->is('config') ? 'text-indigo-400' : 'text-gray-300' }}">Config</a>
                     <a href="/json-demo" class="hover:text-indigo-400 transition {{ request()->is('json-demo') ? 'text-indigo-400' : 'text-gray-300' }}">JSON Output</a>
+                    <a href="/visualize" class="hover:text-indigo-400 transition {{ request()->is('visualize') ? 'text-indigo-400' : 'text-gray-300' }}">Visualize</a>
                 </div>
                 <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="md:hidden text-gray-300">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -49,6 +50,7 @@
             <a href="/commands" class="block text-gray-300 hover:text-white">Commands</a>
             <a href="/config" class="block text-gray-300 hover:text-white">Config</a>
             <a href="/json-demo" class="block text-gray-300 hover:text-white">JSON Output</a>
+            <a href="/visualize" class="block text-gray-300 hover:text-white">Visualize</a>
         </div>
     </nav>
 

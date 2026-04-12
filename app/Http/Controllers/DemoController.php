@@ -80,4 +80,9 @@ class DemoController extends Controller
     {
         return view('pages.json-demo');
     }
+
+    public function visualize()
+    {
+        return view('pages.visualize');
+    }
 }

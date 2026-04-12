@@ -116,6 +116,73 @@ Analyzing relationships...
         </div>
     </section>
 
+    {{-- model-analyzer:visualize --}}
+    <section class="mb-12">
+        <h2 class="text-2xl font-bold mb-4">model-analyzer:visualize</h2>
+        <p class="text-gray-600 mb-4">Generates a standalone HTML file with an interactive D3.js force-directed graph of your model relationships.</p>
+
+        <div class="overflow-x-auto mb-4">
+            <table class="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+                <thead class="bg-gray-100">
+                    <tr>
+                        <th class="text-left px-4 py-2 font-semibold">Option</th>
+                        <th class="text-left px-4 py-2 font-semibold">Description</th>
+                        <th class="text-left px-4 py-2 font-semibold">Default</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                    <tr>
+                        <td class="px-4 py-2 font-mono text-indigo-600">--output</td>
+                        <td class="px-4 py-2">Output file path for the generated HTML</td>
+                        <td class="px-4 py-2 text-gray-500">model-relationships.html</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 font-mono text-indigo-600">--models</td>
+                        <td class="px-4 py-2">Comma-separated list of model names to include</td>
+                        <td class="px-4 py-2 text-gray-500">all</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 font-mono text-indigo-600">--erd</td>
+                        <td class="px-4 py-2">Generate an Entity Relationship Diagram with table boxes, columns, and crow's foot cardinality</td>
+                        <td class="px-4 py-2 text-gray-500">false</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 font-mono text-indigo-600">--format</td>
+                        <td class="px-4 py-2">Output format: <code>html</code> (interactive, D3.js) or <code>svg</code> (static, embeddable)</td>
+                        <td class="px-4 py-2 text-gray-500">html</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="bg-gray-900 text-green-400 font-mono text-sm rounded-lg p-4 overflow-x-auto mb-4">
+<pre>$ php artisan model-analyzer:visualize
+
+<span class="text-gray-400">Analyzing model relationships...</span>
+
+<span class="text-green-400">Graph generated: model-relationships.html</span>
+  6 models, 16 relationships, health score: 62/100</pre>
+        </div>
+
+        <div class="bg-gray-900 text-green-400 font-mono text-sm rounded-lg p-4 overflow-x-auto mb-4">
+<pre>$ php artisan model-analyzer:visualize --erd
+
+<span class="text-gray-400">Analyzing model relationships...</span>
+
+<span class="text-green-400">ERD generated: model-erd.html</span>
+  6 models, 16 relationships, health score: 62/100</pre>
+        </div>
+
+        <div class="bg-gray-900 text-green-400 font-mono text-sm rounded-lg p-4 overflow-x-auto">
+<pre>$ php artisan model-analyzer:visualize --format=svg
+
+<span class="text-gray-400">Analyzing model relationships...</span>
+
+<span class="text-green-400">Graph generated: model-relationships.svg</span>
+  6 models, 16 relationships, health score: 62/100</pre>
+        </div>
+    </section>
+
     {{-- model-analyzer:list-models --}}
     <section class="mb-12">
         <h2 class="text-2xl font-bold mb-4">model-analyzer:list-models</h2>

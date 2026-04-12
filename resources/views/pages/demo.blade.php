@@ -52,6 +52,8 @@
                     <button onclick="showTab('analyze')" class="tab-btn px-4 py-2 text-sm font-medium rounded-t-lg border-b-2 border-indigo-600 text-indigo-600 bg-white" data-tab="analyze">analyze</button>
                     <button onclick="showTab('health')" class="tab-btn px-4 py-2 text-sm font-medium rounded-t-lg border-b-2 border-transparent text-gray-500 hover:text-gray-700" data-tab="health">health</button>
                     <button onclick="showTab('list')" class="tab-btn px-4 py-2 text-sm font-medium rounded-t-lg border-b-2 border-transparent text-gray-500 hover:text-gray-700" data-tab="list">list-models</button>
+                    <button onclick="showTab('visualize')" class="tab-btn px-4 py-2 text-sm font-medium rounded-t-lg border-b-2 border-transparent text-gray-500 hover:text-gray-700" data-tab="visualize">visualize</button>
+                    <button onclick="showTab('erd')" class="tab-btn px-4 py-2 text-sm font-medium rounded-t-lg border-b-2 border-transparent text-gray-500 hover:text-gray-700" data-tab="erd">visualize --erd</button>
                 </nav>
             </div>
 
@@ -131,6 +133,42 @@ Analyzing relationships...
  Total: <span class="text-indigo-400">6 models</span>, <span class="text-indigo-400">16 relationships</span>
 </pre>
                 </div>
+            </div>
+
+            {{-- Tab: visualize --}}
+            <div id="tab-visualize" class="tab-content hidden">
+                <div class="bg-gray-900 text-green-400 font-mono text-sm rounded-b-lg rounded-tr-lg p-4 overflow-x-auto mb-4">
+<pre>
+$ php artisan model-analyzer:visualize
+
+<span class="text-gray-400">Analyzing model relationships...</span>
+
+<span class="text-green-400">Graph generated: model-relationships.html</span>
+  6 models, 16 relationships, health score: 62/100
+</pre>
+                </div>
+                <div class="rounded-lg overflow-hidden border border-gray-200" style="height: 400px;">
+                    <iframe src="/model-relationships.html" class="w-full h-full border-0" title="Model Relationship Graph"></iframe>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">Interactive D3.js graph — drag nodes, scroll to zoom, hover for details. <a href="/visualize" class="text-indigo-600 hover:underline">Full page &rarr;</a></p>
+            </div>
+
+            {{-- Tab: erd --}}
+            <div id="tab-erd" class="tab-content hidden">
+                <div class="bg-gray-900 text-green-400 font-mono text-sm rounded-b-lg rounded-tr-lg p-4 overflow-x-auto mb-4">
+<pre>
+$ php artisan model-analyzer:visualize --erd
+
+<span class="text-gray-400">Analyzing model relationships...</span>
+
+<span class="text-green-400">ERD generated: model-erd.html</span>
+  6 models, 16 relationships, health score: 62/100
+</pre>
+                </div>
+                <div class="rounded-lg overflow-hidden border border-gray-200" style="height: 400px;">
+                    <iframe src="/model-erd.html" class="w-full h-full border-0" title="Entity Relationship Diagram"></iframe>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">ERD with table boxes, columns, PK/FK icons, and crow's foot cardinality. <a href="/visualize" class="text-indigo-600 hover:underline">Full page &rarr;</a></p>
             </div>
         </div>
     </div>
