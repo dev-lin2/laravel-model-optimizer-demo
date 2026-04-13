@@ -14,6 +14,19 @@ php artisan serve
 
 Then visit `http://localhost:8000`.
 
+## Docker Deployment
+
+This repo includes a production-style Docker setup for servers that only have Docker installed. It runs a single app container on host port `8085` and uses a SQLite file inside the persistent `storage` volume, so no separate database container is needed.
+
+```bash
+cp .env.docker.example .env
+docker compose up -d --build
+```
+
+The app container includes PHP and Composer inside the image build, so the server does not need host PHP or host Composer.
+
+If `APP_KEY` is left empty, the container will generate one on first boot and save it in the persistent volume at `storage/app/app.key`. Set `APP_URL=https://model-optimizer.linaung.dev` in `.env` for your reverse proxy deployment.
+
 ## Pages
 
 | Route | Description |
